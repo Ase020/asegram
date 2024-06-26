@@ -3,7 +3,7 @@ import React from "react";
 
 function AddPost() {
   return (
-    <div className="bg-white p-4 rounded-lg flex gap-4 justify-between text-sm ">
+    <div className="bg-white p-4 rounded-lg flex gap-4 justify-between text-sm shadow-md">
       {/* Avatar */}
       <Image
         src="https://images.pexels.com/photos/26088712/pexels-photo-26088712/free-photo-of-woman-standing-in-entrance.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
