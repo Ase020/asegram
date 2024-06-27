@@ -22,7 +22,7 @@ const Homepage = () => {
       </div>
 
       {/* right */}
-      <div className="hidden lg:block w-[30%] bg-red-500">
+      <div className="hidden lg:block w-[30%]">
         <RightMenu />
       </div>
     </div>

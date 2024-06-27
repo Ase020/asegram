@@ -3,7 +3,7 @@ import React from "react";
 
 function AddPost() {
   return (
-    <div className="bg-white p-4 rounded-lg flex gap-4 justify-between text-sm shadow-md">
+    <div className="card flex gap-4 justify-between text-sm">
       {/* Avatar */}
       <Image
         src="https://images.pexels.com/photos/26088712/pexels-photo-26088712/free-photo-of-woman-standing-in-entrance.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
@@ -16,7 +16,7 @@ function AddPost() {
       {/* Post */}
       <div className="flex-1">
         {/*/ Text Input */}
-        <div className="flex gap-4">
+        <div className="flex sm:gap-4">
           <textarea
             placeholder="What's on your mind?"
             className="bg-slate-100 rounded-lg flex-1 p-2"

@@ -16,7 +16,7 @@ function Comments() {
           className="size-8 object-cover rounded-full"
         />
 
-        <div className="flex items-end justify-between bg-slate-100 rounded-xl text-sm px-6 py-2 w-full gap-4">
+        <div className="flex items-end justify-between bg-slate-100 rounded-xl text-sm px-2 sm:px-6 py-2 w-full sm:gap-4">
           <textarea
             className="bg-transparent outline-none flex-1"
             placeholder="Write a comment..."

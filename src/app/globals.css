@@ -23,4 +23,8 @@
   .flex-between {
     @apply flex items-center justify-between;
   }
+
+  .card {
+    @apply p-4 bg-white rounded-lg shadow-md;
+  }
 }
