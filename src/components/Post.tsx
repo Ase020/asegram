@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import Comments from "./Comments";
 
 function Post() {
   return (
-    <div className="flex flex-col gap-4 border border-red-200">
+    <div className="flex flex-col gap-4">
       {/* User */}
       <div className="flex-between">
         <div className="flex items-center gap-4">
@@ -28,7 +29,7 @@ function Post() {
 
       {/* Desc */}
       <div className="flex flex-col gap-4">
-        <div className="w-full min-h-96 relative border">
+        <div className="w-full min-h-96 relative">
           <Image
             src="https://images.pexels.com/photos/20347150/pexels-photo-20347150/free-photo-of-landscape-of-countryside-and-volcano-behind-on-java-in-indonesia.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"
             alt=""
@@ -49,9 +50,9 @@ function Post() {
       </div>
 
       {/* Interaction */}
-      <div className="flex-between text-sm">
+      <div className="flex-between text-sm my-4">
         <div className="flex gap-8">
-          <div className="flex items-center gap-4 bg-slate-100 p-2 rounded-xl">
+          <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
             <Image
               src="/like.png"
               alt="like"
@@ -66,7 +67,7 @@ function Post() {
             </span>
           </div>
 
-          <div className="flex items-center gap-4 bg-slate-100 p-2 rounded-xl">
+          <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
             <Image
               src="/comment.png"
               alt="comment"
@@ -83,7 +84,7 @@ function Post() {
         </div>
 
         <div className="">
-          <div className="flex items-center gap-4 bg-slate-100 p-2 rounded-xl">
+          <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
             <Image
               src="/share.png"
               alt="share"
@@ -99,6 +100,9 @@ function Post() {
           </div>
         </div>
       </div>
+
+      {/* Comments */}
+      <Comments />
     </div>
   );
 }
