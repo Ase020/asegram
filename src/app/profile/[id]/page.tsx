@@ -8,7 +8,7 @@ function ProfilePage() {
     <div className="flex gap-6 pt-6">
       {/* left */}
       <div className="hidden xl:block w-1/5 bg-blue-500">
-        <LeftMenu />
+        <LeftMenu type="profile" />
       </div>
 
       {/* center */}
